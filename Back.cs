@@ -5,6 +5,6 @@ using UnityEngine.SceneManagement;
 public class Back : MonoBehaviour
 {
     public void Scene() {  
-        SceneManager.LoadScene("StartMenu");
+        SceneManager.LoadScene("StartMenu"); //Switching back to the StartMenu.
     }
 }
