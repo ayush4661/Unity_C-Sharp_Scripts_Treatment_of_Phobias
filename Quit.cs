@@ -4,6 +4,6 @@ using UnityEngine;
 public class Quit: MonoBehaviour {  
     public void exitgame() {  
         Debug.Log("exitgame");  
-        Application.Quit();  
+        Application.Quit();  //calling Quit function to exit from the application.
     }  
 }   
